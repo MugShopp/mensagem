@@ -66,10 +66,11 @@ video {
 .final-msg {
   display: none;
   position: absolute;
-  bottom: 10%;
-  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2em;
   color: #333;
   opacity: 0;
   transition: opacity 1s ease;
@@ -77,9 +78,8 @@ video {
 }
 
 .logo {
-  width: 200px;
-  margin: 20px auto;
-  display: block;
+  width: 300px;
+  margin-top: 20px;
   opacity: 0;
   transition: opacity 1s ease;
 }
